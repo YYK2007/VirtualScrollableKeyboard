@@ -103,7 +103,7 @@ def draw_keyboard():
     
 
 # Load the TensorFlow Lite model
-model_path = "C:\\Users\\youss\\Desktop\\TKS - The Knowledge Society\\Focus\\Virtual Keyboard Replicate #2\\ei-virtualkeyboard-classifier-tensorflow-lite-float32-model.lite"
+model_path = "type the location of your TensorFlow model"            #This is a placeholder 
 interpreter = tf.lite.Interpreter(model_path=model_path)
 interpreter.allocate_tensors()
 input_details = interpreter.get_input_details()
